@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: teamhex
+  labels:
+    app: teamhex
+    type: backend
+spec:
+  selector:
+    app: teamhex
+    type: backend
+  ports:
+    - port: 5000

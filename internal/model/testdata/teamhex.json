@@ -1,0 +1,42 @@
+{
+  "generated": "2020-02-22T12:00:00Z",
+  "teams": [
+    {
+      "name": "Pizzas",
+      "colors": [
+        "#b83",
+        "#f00",
+        "#000"
+      ],
+      "league": "Italian Food",
+      "conference": ""
+    },
+    {
+      "name": "Bananas",
+      "colors": [
+        "#ff0",
+        "#000"
+      ],
+      "league": "Fruit",
+      "conference": ""
+    },
+    {
+      "name": "The Pears",
+      "colors": [
+        "#af0",
+        "#ff0"
+      ],
+      "league": "Fruit",
+      "conference": ""
+    },
+    {
+      "name": "Apples",
+      "colors": [
+        "#f00",
+        "#0f0"
+      ],
+      "league": "Fruit",
+      "conference": "Sweet"
+    }
+  ]
+}
