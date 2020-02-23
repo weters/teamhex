@@ -16,9 +16,6 @@ jobs:
       - name: Fetch Tags
         run: git fetch --tags
 
-      - name: Run Tests
-        run: make test
-
       - name: Set Version
         run: echo "::set-env name=VERSION::$(git describe --always)"
 

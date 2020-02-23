@@ -5,6 +5,7 @@ RUN go mod download
 COPY cmd/ cmd/
 COPY internal/ internal/
 ARG version
+RUN go test ./...
 RUN GOOS=linux \
     CGO_ENABLED=0 \
     go build \
