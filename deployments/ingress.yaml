@@ -6,6 +6,10 @@ metadata:
     app: teamhex
     type: backend
 spec:
+  tls:
+    - hosts:
+        - api.teamhex.dev
+      secretName: tls-teamhex
   rules:
     - host: api.teamhex.dev
       http:
