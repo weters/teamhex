@@ -2,41 +2,61 @@
   "generated": "2020-02-22T12:00:00Z",
   "teams": [
     {
-      "name": "Pizzas",
-      "colors": [
-        "#b83",
-        "#f00",
-        "#000"
+      "name": "The Ohio State University",
+      "eras": [
+        {
+          "year": 2004,
+          "colors": [
+            { "name": "Scarlet", "hex": "#BA0C2F" }
+          ]
+        }
       ],
-      "league": "Italian Food",
-      "conference": ""
+      "league": "NCAA",
+      "division": "Big Ten Conference"
     },
     {
-      "name": "Bananas",
-      "colors": [
-        "#ff0",
-        "#000"
+      "name": "Buffalo Bills",
+      "eras": [
+        {
+          "year": 2011,
+          "colors": [
+            { "name": "Royal Blue", "hex": "#003087" },
+            { "name": "Scarlet Red", "hex": "#C8102E" }
+          ]
+        },
+        {
+          "year": 2002,
+          "colors": [
+            { "name": "Midnight Navy", "hex": "#091F2C" }
+          ]
+        }
       ],
-      "league": "Fruit",
-      "conference": ""
+      "league": "NFL",
+      "division": "AFC"
     },
     {
-      "name": "The Pears",
-      "colors": [
-        "#af0",
-        "#ff0"
+      "name": "University At Buffalo, The State University Of New York",
+      "eras": [
+        {
+          "year": 2016,
+          "colors": [
+            { "name": "Royal Blue", "hex": "#0057B7" },
+            { "name": "White", "hex": "#FFFFFF" }
+          ]
+        }
       ],
-      "league": "Fruit",
-      "conference": ""
+      "league": "NCAA",
+      "division": "Mid-American Conference"
     },
     {
-      "name": "Apples",
-      "colors": [
-        "#f00",
-        "#0f0"
+      "name": "Buffalo Sabres",
+      "eras": [
+        {
+          "year": 2010,
+          "colors": [ { "name": "Navy", "hex": "#041E42" } ]
+        }
       ],
-      "league": "Fruit",
-      "conference": "Sweet"
+      "league": "NHL"
     }
   ]
 }

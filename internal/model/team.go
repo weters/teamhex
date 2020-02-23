@@ -18,17 +18,29 @@ package model
 
 import "strings"
 
-//TeamRecord represents an individual team
-type TeamRecord struct {
-	Name       string   `json:"name"`
-	Colors     []string `json:"colors"`
-	League     string   `json:"league"`
-	Conference string   `json:"conference,omitempty"`
-	Link       string   `json:"link"`
+//Team represents an individual team
+type Team struct {
+	Name     string `json:"name"`
+	Eras     []*Era `json:"eras"`
+	League   string `json:"league"`
+	Division string `json:"division,omitempty"`
+	Link     string `json:"_link"`
 }
 
-//Teams is a colletion of teams
-type Teams []*TeamRecord
+//Era represents a particular period in time
+type Era struct {
+	Year   int      `json:"year"`
+	Colors []*Color `json:"colors"`
+}
+
+//Color represents an individual color in an era
+type Color struct {
+	Name string `json:"name"`
+	Hex  string `json:"hex"`
+}
+
+//Teams is a collection of teams
+type Teams []*Team
 
 func (t Teams) Len() int {
 	return len(t)

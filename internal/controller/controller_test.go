@@ -68,8 +68,9 @@ func TestGetRoot(t *testing.T) {
 
 func TestGetLeagues(t *testing.T) {
 	expected := `[
-	{  "league": "Fruit", "_link": "/leagues/fruit" },
-	{  "league": "Italian Food", "_link": "/leagues/italian%20food" }
+	{  "league": "NCAA", "_link": "/leagues/ncaa" },
+	{  "league": "NFL", "_link": "/leagues/nfl" },
+	{  "league": "NHL", "_link": "/leagues/nhl" }
 ]`
 	runWithSetupAndTeardown(t, func() {
 		res, err := http.Get(ts.URL + "/leagues")
@@ -86,19 +87,45 @@ func TestGetLeagues(t *testing.T) {
 
 func TestGetTeamsByLeague(t *testing.T) {
 	expected := `[
-  { "name": "Apples", "colors": [ "#f00", "#0f0" ], "league": "Fruit", "conference": "Sweet", "link": "/leagues/fruit/apples" },
-  { "name": "Bananas", "colors": [ "#ff0", "#000" ], "league": "Fruit", "link": "/leagues/fruit/bananas"},
-  { "name": "The Pears", "colors": [ "#af0", "#ff0" ], "league": "Fruit", "link": "/leagues/fruit/the%20pears"}
+    {
+      "name": "The Ohio State University",
+      "eras": [
+        {
+          "year": 2004,
+          "colors": [
+            { "name": "Scarlet", "hex": "#BA0C2F" }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Ten Conference",
+      "_link": "/leagues/ncaa/the%20ohio%20state%20university"
+    },
+    {
+      "name": "University At Buffalo, The State University Of New York",
+      "eras": [
+        {
+          "year": 2016,
+          "colors": [
+            { "name": "Royal Blue", "hex": "#0057B7" },
+            { "name": "White", "hex": "#FFFFFF" }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Mid-American Conference",
+      "_link": "/leagues/ncaa/university%20at%20buffalo%2C%20the%20state%20university%20of%20new%20york"
+    }
 ]`
 
 	runWithSetupAndTeardown(t, func() {
-		res, err := http.Get(ts.URL + "/leagues/fruit")
+		res, err := http.Get(ts.URL + "/leagues/ncaa")
 		g.Expect(err).Should(gomega.BeNil())
 		defer res.Body.Close()
 		g.Expect(res.StatusCode).Should(gomega.Equal(http.StatusOK))
 		body, _ := ioutil.ReadAll(res.Body)
 
-		var teams []*model.TeamRecord
+		var teams []*model.Team
 		must(json.Unmarshal([]byte(expected), &teams))
 		g.Expect(string(body)).Should(gomega.Equal(toJSON(teams)))
 	})
@@ -117,17 +144,27 @@ func TestGetTeamsByLeagueWithLeagueNotFound(t *testing.T) {
 
 func TestGetTeamByLeagueAndName(t *testing.T) {
 	expected := `
-{ "name": "The Pears", "colors": [ "#af0", "#ff0" ], "league": "Fruit", "link": "/leagues/fruit/the%20pears"}
+    {
+      "name": "Buffalo Sabres",
+      "eras": [
+        {
+          "year": 2010,
+          "colors": [ { "name": "Navy", "hex": "#041E42" } ]
+        }
+      ],
+      "league": "NHL",
+	  "_link": "/leagues/nhl/buffalo%20sabres"
+    }
 `
 
 	runWithSetupAndTeardown(t, func() {
-		res, err := http.Get(ts.URL + "/leagues/fruit/the%20pears")
+		res, err := http.Get(ts.URL + "/leagues/nhl/buffalo%20sabres")
 		g.Expect(err).Should(gomega.BeNil())
 		defer res.Body.Close()
 		g.Expect(res.StatusCode).Should(gomega.Equal(http.StatusOK))
 		body, _ := ioutil.ReadAll(res.Body)
 
-		var teams *model.TeamRecord
+		var teams *model.Team
 		must(json.Unmarshal([]byte(expected), &teams))
 		g.Expect(string(body)).Should(gomega.Equal(toJSON(teams)))
 	})
@@ -146,7 +183,7 @@ func TestGetTeamByLeagueAndNameWithLeagueNotFound(t *testing.T) {
 
 func TestGetTeamByLeagueAndNameWithTeamNotFound(t *testing.T) {
 	runWithSetupAndTeardown(t, func() {
-		res, err := http.Get(ts.URL + "/leagues/italian%20food/the%20pears")
+		res, err := http.Get(ts.URL + "/leagues/nfl/oakland%20raiders")
 		g.Expect(err).Should(gomega.BeNil())
 		defer res.Body.Close()
 		g.Expect(res.StatusCode).Should(gomega.Equal(http.StatusNotFound))
@@ -157,11 +194,68 @@ func TestGetTeamByLeagueAndNameWithTeamNotFound(t *testing.T) {
 
 func TestGetTeamsByAll(t *testing.T) {
 	expected := `[
-  { "name": "Apples", "colors": [ "#f00", "#0f0" ], "league": "Fruit", "conference": "Sweet", "link": "/leagues/fruit/apples" },
-  { "name": "Bananas", "colors": [ "#ff0", "#000" ], "league": "Fruit", "link": "/leagues/fruit/bananas"},
-  { "name": "Pizzas", "colors": [ "#b83", "#f00", "#000" ], "league": "Italian Food", "link": "/leagues/italian%20food/pizzas"},
-  { "name": "The Pears", "colors": [ "#af0", "#ff0" ], "league": "Fruit", "link": "/leagues/fruit/the%20pears"}
-]`
+    {
+      "name": "Buffalo Bills",
+      "eras": [
+        {
+          "year": 2011,
+          "colors": [
+            { "name": "Royal Blue", "hex": "#003087" },
+            { "name": "Scarlet Red", "hex": "#C8102E" }
+          ]
+        },
+        {
+          "year": 2002,
+          "colors": [
+            { "name": "Midnight Navy", "hex": "#091F2C" }
+          ]
+        }
+      ],
+      "league": "NFL",
+      "division": "AFC",
+	  "_link": "/leagues/nfl/buffalo%20bills"
+    },
+    {
+      "name": "Buffalo Sabres",
+      "eras": [
+        {
+          "year": 2010,
+          "colors": [ { "name": "Navy", "hex": "#041E42" } ]
+        }
+      ],
+      "league": "NHL",
+	  "_link": "/leagues/nhl/buffalo%20sabres"
+    },
+    {
+      "name": "The Ohio State University",
+      "eras": [
+        {
+          "year": 2004,
+          "colors": [
+            { "name": "Scarlet", "hex": "#BA0C2F" }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Ten Conference",
+      "_link": "/leagues/ncaa/the%20ohio%20state%20university"
+    },
+    {
+      "name": "University At Buffalo, The State University Of New York",
+      "eras": [
+        {
+          "year": 2016,
+          "colors": [
+            { "name": "Royal Blue", "hex": "#0057B7" },
+            { "name": "White", "hex": "#FFFFFF" }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Mid-American Conference",
+      "_link": "/leagues/ncaa/university%20at%20buffalo%2C%20the%20state%20university%20of%20new%20york"
+    }
+  ]`
 
 	runWithSetupAndTeardown(t, func() {
 		res, err := http.Get(ts.URL + "/teams")
@@ -170,7 +264,7 @@ func TestGetTeamsByAll(t *testing.T) {
 		g.Expect(res.StatusCode).Should(gomega.Equal(http.StatusOK))
 		body, _ := ioutil.ReadAll(res.Body)
 
-		var teams []*model.TeamRecord
+		var teams []*model.Team
 		must(json.Unmarshal([]byte(expected), &teams))
 		g.Expect(string(body)).Should(gomega.Equal(toJSON(teams)))
 	})
@@ -178,18 +272,45 @@ func TestGetTeamsByAll(t *testing.T) {
 
 func TestGetTeamsBySearch(t *testing.T) {
 	expected := `[
-  { "name": "Bananas", "colors": [ "#ff0", "#000" ], "league": "Fruit", "link": "/leagues/fruit/bananas"},
-  { "name": "Pizzas", "colors": [ "#b83", "#f00", "#000" ], "league": "Italian Food", "link": "/leagues/italian%20food/pizzas"}
+    {
+      "name": "The Ohio State University",
+      "eras": [
+        {
+          "year": 2004,
+          "colors": [
+            { "name": "Scarlet", "hex": "#BA0C2F" }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Ten Conference",
+      "_link": "/leagues/ncaa/the%20ohio%20state%20university"
+    },
+    {
+      "name": "University At Buffalo, The State University Of New York",
+      "eras": [
+        {
+          "year": 2016,
+          "colors": [
+            { "name": "Royal Blue", "hex": "#0057B7" },
+            { "name": "White", "hex": "#FFFFFF" }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Mid-American Conference",
+      "_link": "/leagues/ncaa/university%20at%20buffalo%2C%20the%20state%20university%20of%20new%20york"
+    }
 ]`
 
 	runWithSetupAndTeardown(t, func() {
-		res, err := http.Get(ts.URL + "/teams?search=as")
+		res, err := http.Get(ts.URL + "/teams?search=univ")
 		g.Expect(err).Should(gomega.BeNil())
 		defer res.Body.Close()
 		g.Expect(res.StatusCode).Should(gomega.Equal(http.StatusOK))
 		body, _ := ioutil.ReadAll(res.Body)
 
-		var teams []*model.TeamRecord
+		var teams []*model.Team
 		must(json.Unmarshal([]byte(expected), &teams))
 		g.Expect(string(body)).Should(gomega.Equal(toJSON(teams)))
 	})

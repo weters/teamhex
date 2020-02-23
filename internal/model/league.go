@@ -40,5 +40,5 @@ func (s sortByLeagueRecord) Swap(i, j int) {
 
 type leagueData struct {
 	sortedTeams Teams
-	teamByName  map[string]*TeamRecord
+	teamByName  map[string]*Team
 }

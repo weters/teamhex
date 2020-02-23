@@ -72,7 +72,7 @@ func New(dataFilename string) (*Model, error) {
 		if !ok {
 			teamsByLeague[league] = &leagueData{
 				sortedTeams: make(Teams, 0, 1),
-				teamByName:  make(map[string]*TeamRecord),
+				teamByName:  make(map[string]*Team),
 			}
 		}
 
@@ -110,7 +110,7 @@ func (m *Model) Leagues() []*LeagueRecord {
 }
 
 //TeamByLeagueAndName returns a team by the league and team name
-func (m *Model) TeamByLeagueAndName(leagueName, name string) (*TeamRecord, error) {
+func (m *Model) TeamByLeagueAndName(leagueName, name string) (*Team, error) {
 	lowerLeagueName := strings.ToLower(leagueName)
 	lowerName := strings.ToLower(name)
 
