@@ -20,7 +20,7 @@ limitations under the License.
 //
 // Terms Of Service: Use at your own risk.
 // Host: api.teamhex.dev
-// Version: 1.0.0
+// Version: 1.0
 // License: Apache License, Version 2.0
 // Schemes: https
 // Produces:
@@ -32,11 +32,12 @@ package controller
 import (
 	"encoding/json"
 	"errors"
+	"net/http"
+	"time"
+
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 	"github.com/weters/teamhex/internal/model"
-	"net/http"
-	"time"
 )
 
 //Controller provides capabilities for handling HTTP requests
