@@ -14,9 +14,15 @@ RUN GOOS=linux \
 RUN go get github.com/go-swagger/go-swagger/cmd/swagger
 RUN swagger generate spec -o swagger.json
 
+FROM alpine:latest AS build-json
+WORKDIR /build
+RUN apk add jq
+COPY configs/teamhex.json teamhex-bloated.json
+RUN cat teamhex-bloated.json | jq . -c > teamhex.json
+
 FROM alpine:latest
 WORKDIR /app
 COPY --from=build-container /build/teamhexserver /bin/teamhexserver
 COPY --from=build-container /build/swagger.json .
-COPY teamhex.json .
+COPY --from=build-json /build/teamhex.json configs/teamhex.json
 ENTRYPOINT [ "/bin/teamhexserver" ]

@@ -34,7 +34,7 @@ const writeTimeout = time.Second * 5
 //Version is the version of the API. You can set it by passing `-ldflags "-X main.Version=v1.0.0"`
 var Version = "v0.0.0"
 var addr = flag.String("addr", ":5000", "address to listen on")
-var dataFilename = flag.String("file", "teamhex.json", "path to JSON colors file")
+var dataFilename = flag.String("file", "configs/teamhex.json", "path to JSON colors file")
 
 func main() {
 	flag.Parse()
