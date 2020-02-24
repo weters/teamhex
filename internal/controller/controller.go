@@ -14,6 +14,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+// Package controller Team Hex API
+//
+// The Team Hex API provides information on professional and collegiate sports teams' colors. This API powers the Team Hex website: https://teamhex.dev/.
+//
+// Terms Of Service: Use at your own risk.
+// Host: api.teamhex.dev
+// Version: 1.0.0
+// License: Apache License, Version 2.0
+// Schemes: https
+// Produces:
+// - application/json
+//
+// swagger:meta
 package controller
 
 import (
@@ -45,6 +58,7 @@ func New(m *model.Model, version string) *Controller {
 	c.Router = router
 
 	router.Methods(http.MethodGet).Path("/").Handler(c.getRoot())
+	router.Methods(http.MethodGet).Path("/swagger.json").Handler(c.getSwaggerJSON())
 	router.Methods(http.MethodGet).Path("/teams").Handler(c.getTeams())
 	router.Methods(http.MethodGet).Path("/leagues").Handler(c.getLeagues())
 	router.Methods(http.MethodGet).Path("/leagues/{league:[^/]+}").Handler(c.getLeaguesLeague())
@@ -53,12 +67,27 @@ func New(m *model.Model, version string) *Controller {
 	return &c
 }
 
+// Successful response
+// swagger:response rootResponse
+type rootResponse struct {
+	Version        string    `json:"version"`
+	GenerationDate time.Time `json:"generationDate"`
+	Links          []string  `json:"_links"`
+}
+
+// swagger:route GET / version
+//
+// Get health and version
+//
+// Provides version information and links to other resources
+//
+// Produces:
+// - application/json
+//
+// Responses:
+//   200: rootResponse
 func (c *Controller) getRoot() http.HandlerFunc {
-	resp := struct {
-		Version        string    `json:"version"`
-		GenerationDate time.Time `json:"generationDate"`
-		Links          []string  `json:"_links"`
-	}{
+	resp := rootResponse{
 		Version:        c.version,
 		GenerationDate: c.model.GenerationDate(),
 		Links: []string{
@@ -72,12 +101,49 @@ func (c *Controller) getRoot() http.HandlerFunc {
 	}
 }
 
+// Successful response
+// swagger:response leaguesResponse
+type leaguesResponse []*model.LeagueRecord
+
+// swagger:route GET /leagues leagues getLeagues
+//
+// Returns a list of supported leagues
+//
+// This endpoint will return a list of all leagues in the system.
+//
+// Produces:
+// - application/json
+//
+// Responses:
+//   200: leaguesResponse
 func (c *Controller) getLeagues() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		serveJSON(w, http.StatusOK, c.model.Leagues())
 	}
 }
 
+// Successful response
+// swagger:response teamsResponse
+type teamsResponse model.Teams
+
+// swagger:operation GET /teams getTeams
+//
+// Returns a list of teams
+//
+// By default, this endpoint will return all teams. You can search using the search query parameter.
+//
+// ---
+// produces:
+// - application/json
+// parameters:
+// - name: search
+//   in: query
+//   description: Search for the specified team
+//   required: false
+//   type: string
+// responses:
+//   '200':
+//     '$ref': '#/responses/teamsResponse'
 func (c *Controller) getTeams() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		if s := r.FormValue("search"); len(s) > 0 {
@@ -89,6 +155,27 @@ func (c *Controller) getTeams() http.HandlerFunc {
 	}
 }
 
+// swagger:operation GET /leagues/{league} getTeamsByLeague
+//
+// Get teams in a league
+//
+// This endpoint returns a list of teams found in a provided league.
+//
+// ---
+// produces:
+// - application/json
+// parameters:
+// - in: path
+//   name: league
+//   required: true
+//   type: string
+// responses:
+//   '200':
+//     '$ref': '#/responses/teamsResponse'
+//   '404':
+//     '$ref': '#/responses/errorResponse'
+//   '500':
+//     '$ref': '#/responses/errorResponse'
 func (c *Controller) getLeaguesLeague() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		league := mux.Vars(r)["league"]
@@ -106,6 +193,35 @@ func (c *Controller) getLeaguesLeague() http.HandlerFunc {
 	}
 }
 
+// Successful response
+// swagger:response teamResponse
+type teamResponse *model.Team
+
+// swagger:operation GET /leagues/{league}/{team} getTeam
+//
+// Get a single team in a provided league
+//
+// This endpoint returns a list of teams found in a provided league.
+//
+// ---
+// produces:
+// - application/json
+// parameters:
+// - in: path
+//   name: league
+//   required: true
+//   type: string
+// - in: path
+//   name: team
+//   required: true
+//   type: string
+// responses:
+//   '200':
+//     '$ref': '#/responses/teamResponse'
+//   '404':
+//     '$ref': '#/responses/errorResponse'
+//   '500':
+//     '$ref': '#/responses/errorResponse'
 func (c *Controller) getLeaguesLeagueTeam() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		leagueName := mux.Vars(r)["league"]
@@ -127,6 +243,12 @@ func (c *Controller) getLeaguesLeagueTeam() http.HandlerFunc {
 	}
 }
 
+func (c *Controller) getSwaggerJSON() http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "swagger.json")
+	}
+}
+
 func serveJSON(w http.ResponseWriter, statusCode int, payload interface{}) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(statusCode)
@@ -136,6 +258,8 @@ func serveJSON(w http.ResponseWriter, statusCode int, payload interface{}) {
 	}
 }
 
+// An error response
+// swagger:response errorResponse
 type errorResponse struct {
 	Message string `json:"message"`
 }

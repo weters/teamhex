@@ -20,8 +20,10 @@ import "strings"
 
 //LeagueRecord represents an individual league
 type LeagueRecord struct {
+	// League is the name of the league
 	League string `json:"league"`
-	Link   string `json:"_link"`
+	// Link is a link to retrieve teams for that league
+	Link string `json:"_link"`
 }
 
 type sortByLeagueRecord []*LeagueRecord
