@@ -76,7 +76,7 @@ type rootResponse struct {
 	Links          []string  `json:"_links"`
 }
 
-// swagger:route GET / version
+// swagger:route GET / health health
 //
 // Get health and version
 //
@@ -108,7 +108,7 @@ type leaguesResponse []*model.LeagueRecord
 
 // swagger:route GET /leagues leagues getLeagues
 //
-// Returns a list of supported leagues
+// Get all leagues
 //
 // This endpoint will return a list of all leagues in the system.
 //
@@ -127,9 +127,9 @@ func (c *Controller) getLeagues() http.HandlerFunc {
 // swagger:response teamsResponse
 type teamsResponse model.Teams
 
-// swagger:operation GET /teams getTeams
+// swagger:operation GET /teams teams getTeams
 //
-// Returns a list of teams
+// Get all teams, or teams filtered by a search query
 //
 // By default, this endpoint will return all teams. You can search using the search query parameter.
 //
@@ -156,9 +156,9 @@ func (c *Controller) getTeams() http.HandlerFunc {
 	}
 }
 
-// swagger:operation GET /leagues/{league} getTeamsByLeague
+// swagger:operation GET /leagues/{league} leagues getTeamsByLeague
 //
-// Get teams in a league
+// Get all teams in a league
 //
 // This endpoint returns a list of teams found in a provided league.
 //
@@ -198,7 +198,7 @@ func (c *Controller) getLeaguesLeague() http.HandlerFunc {
 // swagger:response teamResponse
 type teamResponse *model.Team
 
-// swagger:operation GET /leagues/{league}/{team} getTeam
+// swagger:operation GET /leagues/{league}/{team} leagues getTeam
 //
 // Get a single team in a provided league
 //
