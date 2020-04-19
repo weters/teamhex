@@ -40,6 +40,27 @@
       "name": "Atlanta Falcons",
       "eras": [
         {
+          "year": 2020,
+          "colors": [
+            {
+              "name": "Black",
+              "hex": "#010101"
+            },
+            {
+              "name": "Red",
+              "hex": "#A6192E"
+            },
+            {
+              "name": "Silver",
+              "hex": "#B2B4B2"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
           "year": 2012,
           "colors": [
             {
@@ -49,10 +70,6 @@
             {
               "name": "Black",
               "hex": "#010101"
-            },
-            {
-              "name": "Silver",
-              "hex": "#B2B4B2"
             },
             {
               "name": "White",
@@ -1256,10 +1273,10 @@
       "name": "Indianapolis Colts",
       "eras": [
         {
-          "year": 2004,
+          "year": 2020,
           "colors": [
             {
-              "name": "Royal Blue",
+              "name": "Speed Blue",
               "hex": "#003A70"
             },
             {
@@ -1551,6 +1568,23 @@
       "name": "Los Angeles Chargers",
       "eras": [
         {
+          "year": 2020,
+          "colors": [
+            {
+              "name": "Powder Blue",
+              "hex": "#0072CE"
+            },
+            {
+              "name": "Sunshine Gold",
+              "hex": "#FFB81C"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
           "year": 2017,
           "colors": [
             {
@@ -1577,6 +1611,23 @@
     {
       "name": "Los Angeles Rams",
       "eras": [
+        {
+          "year": 2020,
+          "colors": [
+            {
+              "name": "Rams Royal",
+              "hex": "#1E22AA"
+            },
+            {
+              "name": "Sol",
+              "hex": "#FFD100"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
         {
           "year": 2016,
           "colors": [
@@ -2919,23 +2970,48 @@
       "name": "Tampa Bay Buccaneers",
       "eras": [
         {
-          "year": 2014,
+          "year": 2020,
           "colors": [
+            {
+              "name": "Red",
+              "hex": "#A6192E"
+            },
             {
               "name": "Pewter",
               "hex": "#3D3935"
             },
             {
+              "name": "Black",
+              "hex": "#010101"
+            },
+            {
+              "name": "Orange",
+              "hex": "#DC4405"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "colors": [
+            {
               "name": "Buccaneer Red",
               "hex": "#C8102E"
             },
             {
-              "name": "Bay Orange",
-              "hex": "#FF8200"
+              "name": "Pewter",
+              "hex": "#3D3935"
             },
             {
               "name": "Chrome",
               "hex": "#B2B4B2"
+            },
+            {
+              "name": "Bay Orange",
+              "hex": "#FF8200"
             },
             {
               "name": "White",
@@ -8060,6 +8136,23 @@
       "name": "New York Liberty",
       "eras": [
         {
+          "year": 2020,
+          "colors": [
+            {
+              "name": "Black",
+              "hex": "#010101"
+            },
+            {
+              "name": "Seafoam Green",
+              "hex": "#6ECEB2"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
           "year": 2012,
           "colors": [
             {
@@ -10314,7 +10407,7 @@
           "year": 2020,
           "colors": [
             {
-              "name": "Blue",
+              "name": "Dark Blue",
               "hex": "#13294B"
             },
             {
@@ -10347,10 +10440,6 @@
             {
               "name": "Blue",
               "hex": "#003087"
-            },
-            {
-              "name": "Dark Blue",
-              "hex": "#041E42"
             },
             {
               "name": "White",
@@ -11263,214 +11352,6 @@
         }
       ],
       "league": "MLS"
-    },
-    {
-      "name": "Dallas Renegades",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Light Blue",
-              "hex": "#418FDE"
-            },
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
-    },
-    {
-      "name": "DC Defenders",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
-    },
-    {
-      "name": "Houston Roughnecks",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "Navy",
-              "hex": "#0C2340"
-            },
-            {
-              "name": "Silver",
-              "hex": "#A2AAAD"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
-    },
-    {
-      "name": "Los Angeles Wildcats",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Red",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Light Orange",
-              "hex": "#FF8200"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
-    },
-    {
-      "name": "New York Guardians",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Red",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Gray",
-              "hex": "#A2AAAD"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
-    },
-    {
-      "name": "St. Louis Battlehawks",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#003087"
-            },
-            {
-              "name": "Navy",
-              "hex": "#0C2340"
-            },
-            {
-              "name": "Gray",
-              "hex": "#A2AAAD"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
-    },
-    {
-      "name": "Seattle Dragons",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Navy",
-              "hex": "#0C2340"
-            },
-            {
-              "name": "Green",
-              "hex": "#00534C"
-            },
-            {
-              "name": "Orange",
-              "hex": "#FA4616"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
-    },
-    {
-      "name": "Tampa Bay Vipers",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#046A38"
-            },
-            {
-              "name": "Action Green",
-              "hex": "#6CC24A"
-            },
-            {
-              "name": "Yellow",
-              "hex": "#FFB81C"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "XFL"
     },
     {
       "name": "University at Albany, State University of New York",
@@ -14213,6 +14094,477 @@
       "division": "Big East Conference"
     },
     {
+      "name": "California State University, Sacramento",
+      "eras": [
+        {
+          "year": 2015,
+          "colors": [
+            {
+              "name": "Green",
+              "hex": "#115740"
+            },
+            {
+              "name": "Gold",
+              "hex": "#C5B783"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "colors": [
+            {
+              "name": "Green",
+              "hex": "#115740"
+            },
+            {
+              "name": "Gold",
+              "hex": "#B3A369"
+            }
+          ]
+        },
+        {
+          "year": 2004,
+          "colors": [
+            {
+              "name": "Green",
+              "hex": "#046A38"
+            },
+            {
+              "name": "Gold",
+              "hex": "#B3A369"
+            }
+          ]
+        },
+        {
+          "year": 2000,
+          "colors": [
+            {
+              "name": "Green",
+              "hex": "#006747"
+            },
+            {
+              "name": "Gold",
+              "hex": "#89734C"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "Eastern Washington University",
+      "eras": [
+        {
+          "year": 2013,
+          "colors": [
+            {
+              "name": "Red",
+              "hex": "#A6192E"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "year": 2000,
+          "colors": [
+            {
+              "name": "Red",
+              "hex": "#C8102E"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "Idaho State University",
+      "eras": [
+        {
+          "year": 2016,
+          "colors": [
+            {
+              "name": "Orange",
+              "hex": "#FF6720"
+            },
+            {
+              "name": "Black",
+              "hex": "#010101"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "colors": [
+            {
+              "name": "Orange",
+              "hex": "#FF8200"
+            },
+            {
+              "name": "Black",
+              "hex": "#010101"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "University of Idaho",
+      "eras": [
+        {
+          "year": 2008,
+          "colors": [
+            {
+              "name": "Silver",
+              "hex": "#A2AAAD"
+            },
+            {
+              "name": "Vandal Gold",
+              "hex": "#B9975B"
+            }
+          ]
+        },
+        {
+          "year": 1999,
+          "colors": [
+            {
+              "name": "Silver",
+              "hex": "#C1C6C8"
+            },
+            {
+              "name": "Gold",
+              "hex": "#CC8A00"
+            }
+          ]
+        },
+        {
+          "year": 1992,
+          "colors": [
+            {
+              "name": "Silver",
+              "hex": "#8D9093"
+            },
+            {
+              "name": "Gold",
+              "hex": "#D9C756"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "Montana State University",
+      "eras": [
+        {
+          "year": 2014,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#00205B"
+            },
+            {
+              "name": "Gold",
+              "hex": "#B9975B"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#00205B"
+            },
+            {
+              "name": "Gold",
+              "hex": "#EAAA00"
+            }
+          ]
+        },
+        {
+          "year": 2004,
+          "colors": [
+            {
+              "name": "Royal Blue",
+              "hex": "#003087"
+            },
+            {
+              "name": "Gold",
+              "hex": "#F3D03E"
+            }
+          ]
+        },
+        {
+          "year": 1997,
+          "colors": [
+            {
+              "name": "Royal Blue",
+              "hex": "#001489"
+            },
+            {
+              "name": "Gold",
+              "hex": "#EAAA00"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "University of Montana",
+      "eras": [
+        {
+          "year": 2014,
+          "colors": [
+            {
+              "name": "Maroon",
+              "hex": "#6F2C3F"
+            },
+            {
+              "name": "Silver",
+              "hex": "#898D8D"
+            }
+          ]
+        },
+        {
+          "year": 1999,
+          "colors": [
+            {
+              "name": "Maroon",
+              "hex": "#862041"
+            },
+            {
+              "name": "Silver",
+              "hex": "#898D8D"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "Northern Arizona University",
+      "eras": [
+        {
+          "year": 2019,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#00205B"
+            },
+            {
+              "name": "Gold",
+              "hex": "#F6B700"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#00205B"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FFCD00"
+            }
+          ]
+        },
+        {
+          "year": 2005,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#00205B"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FFCD00"
+            },
+            {
+              "name": "Sage Green",
+              "hex": "#5C7F71"
+            }
+          ]
+        },
+        {
+          "year": 1989,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#0032A0"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FFCD00"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "University of Northern Colorado",
+      "eras": [
+        {
+          "year": 2015,
+          "colors": [
+            {
+              "name": "Navy",
+              "hex": "#002855"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FFB81C"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "colors": [
+            {
+              "name": "Navy",
+              "hex": "#002855"
+            },
+            {
+              "name": "Gold",
+              "hex": "#EAAA00"
+            }
+          ]
+        },
+        {
+          "year": 2004,
+          "colors": [
+            {
+              "name": "Navy",
+              "hex": "#002D72"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FED141"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "Portland State University",
+      "eras": [
+        {
+          "year": 2016,
+          "colors": [
+            {
+              "name": "Forest Green",
+              "hex": "#154734"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "colors": [
+            {
+              "name": "Forest Green",
+              "hex": "#2C5234"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "year": 2001,
+          "colors": [
+            {
+              "name": "Forest Green",
+              "hex": "#006F62"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "Southern Utah University",
+      "eras": [
+        {
+          "year": 2017,
+          "colors": [
+            {
+              "name": "Scarlet",
+              "hex": "#BA0C2F"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
+      "name": "Weber State University",
+      "eras": [
+        {
+          "year": 2012,
+          "colors": [
+            {
+              "name": "Royal Purple",
+              "hex": "#470A68"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "year": 1997,
+          "colors": [
+            {
+              "name": "Royal Purple",
+              "hex": "#8031A7"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Big Sky Conference"
+    },
+    {
       "name": "Campbell University",
       "eras": [
         {
@@ -14522,330 +14874,6 @@
       ],
       "league": "NCAA",
       "division": "Big South Conference"
-    },
-    {
-      "name": "University of Illinois at Urbana-champaign",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#E04F39"
-            },
-            {
-              "name": "Blue",
-              "hex": "#13294B"
-            }
-          ]
-        },
-        {
-          "year": 1989,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#E87722"
-            },
-            {
-              "name": "Blue",
-              "hex": "#00205B"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "Indiana University Bloomington",
-      "eras": [
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Cream",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "Crimson",
-              "hex": "#9D2235"
-            }
-          ]
-        },
-        {
-          "year": 1976,
-          "colors": [
-            {
-              "name": "Cream",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "Crimson",
-              "hex": "#BA0C2F"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "The University of Iowa",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "University of Maryland, College Park",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1997,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#DA291C"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "Michigan State University",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#173F35"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1977,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#007A53"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "University of Michigan",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Maize",
-              "hex": "#F1C400"
-            },
-            {
-              "name": "Blue",
-              "hex": "#041E42"
-            }
-          ]
-        },
-        {
-          "year": 1996,
-          "colors": [
-            {
-              "name": "Maize",
-              "hex": "#FFCD00"
-            },
-            {
-              "name": "Blue",
-              "hex": "#041E42"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "University of Minnesota, Twin Cities Campus",
-      "eras": [
-        {
-          "year": 2019,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862633"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFBF3F"
-            }
-          ]
-        },
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862041"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFBF3F"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "University of Nebraska-lincoln",
-      "eras": [
-        {
-          "year": 1992,
-          "colors": [
-            {
-              "name": "Scarlet",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "Cream",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "Northwestern University",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Northwestern Purple",
-              "hex": "#4E2A84"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2009,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#5F249F"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1981,
-          "colors": [
-            {
-              "name": "Royal Purple",
-              "hex": "#753BBD"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "The Ohio State University",
-      "eras": [
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Scarlet",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Gray",
-              "hex": "#A2AAAD"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
-    },
-    {
-      "name": "Penn State University Park",
-      "eras": [
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Navy",
-              "hex": "#041E42"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Big Ten Conference"
     },
     {
       "name": "California Polytechnic State University, San Luis Obispo",
@@ -15203,425 +15231,6 @@
       ],
       "league": "NCAA",
       "division": "Big West Conference"
-    },
-    {
-      "name": "College of Charleston",
-      "eras": [
-        {
-          "year": 2013,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#76232F"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2005,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6C1D45"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1998,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862633"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "University of Delaware",
-      "eras": [
-        {
-          "year": 2018,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#004C97"
-            },
-            {
-              "name": "Yellow-gold",
-              "hex": "#FFD100"
-            }
-          ]
-        },
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#003087"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFD100"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "Drexel University",
-      "eras": [
-        {
-          "year": 2012,
-          "colors": [
-            {
-              "name": "Navy",
-              "hex": "#002F6C"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC600"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#00205B"
-            },
-            {
-              "name": "Gold",
-              "hex": "#F3D03E"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "Elon University",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#76232F"
-            },
-            {
-              "name": "Gold",
-              "hex": "#A89968"
-            }
-          ]
-        },
-        {
-          "year": 1995,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862633"
-            },
-            {
-              "name": "Gold",
-              "hex": "#89764B"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "Hofstra University",
-      "eras": [
-        {
-          "year": 2005,
-          "colors": [
-            {
-              "name": "Dutch Blue",
-              "hex": "#003594"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Dutch Blue",
-              "hex": "#10069F"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFBF3F"
-            }
-          ]
-        },
-        {
-          "year": 1988,
-          "colors": [
-            {
-              "name": "Dutch Blue",
-              "hex": "#10069F"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFDE2E"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "James Madison University",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#330072"
-            },
-            {
-              "name": "Gold",
-              "hex": "#B3A369"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#330072"
-            },
-            {
-              "name": "Gold",
-              "hex": "#C69214"
-            }
-          ]
-        },
-        {
-          "year": 1996,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#24125F"
-            },
-            {
-              "name": "Gold",
-              "hex": "#F2A900"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "The University of North Carolina at Wilmington",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Teal",
-              "hex": "#00685E"
-            },
-            {
-              "name": "Navy",
-              "hex": "#00205B"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FEDB00"
-            }
-          ]
-        },
-        {
-          "year": 2007,
-          "colors": [
-            {
-              "name": "Teal",
-              "hex": "#00685E"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FBDB65"
-            },
-            {
-              "name": "Navy",
-              "hex": "#00205B"
-            }
-          ]
-        },
-        {
-          "year": 1995,
-          "colors": [
-            {
-              "name": "Teal",
-              "hex": "#00685E"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FBDB65"
-            },
-            {
-              "name": "Navy",
-              "hex": "#012169"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "Northeastern University",
-      "eras": [
-        {
-          "year": 2009,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 1985,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "Towson University",
-      "eras": [
-        {
-          "year": 2006,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFB81C"
-            }
-          ]
-        },
-        {
-          "year": 1983,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
-    },
-    {
-      "name": "The College of William and Mary",
-      "eras": [
-        {
-          "year": 2019,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#115740"
-            },
-            {
-              "name": "Gold",
-              "hex": "#B9975B"
-            },
-            {
-              "name": "Silver",
-              "hex": "#D0D3D4"
-            }
-          ]
-        },
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#284734"
-            },
-            {
-              "name": "Gold",
-              "hex": "#F2C75C"
-            },
-            {
-              "name": "Silver",
-              "hex": "#8D9093"
-            }
-          ]
-        },
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#115740"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFD100"
-            },
-            {
-              "name": "Silver",
-              "hex": "#8D9093"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Colonial Athletic Association"
     },
     {
       "name": "The University of Alabama at Birmingham",
@@ -16118,309 +15727,6 @@
       ],
       "league": "NCAA",
       "division": "Conference USA"
-    },
-    {
-      "name": "Cleveland State University",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Forest Green",
-              "hex": "#115740"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1982,
-          "colors": [
-            {
-              "name": "Forest Green",
-              "hex": "#006747"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "University of Detroit Mercy",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#A6192E"
-            },
-            {
-              "name": "Blue",
-              "hex": "#002D72"
-            }
-          ]
-        },
-        {
-          "year": 2009,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "Blue",
-              "hex": "#003087"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "University of Illinois at Chicago",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Indigo",
-              "hex": "#041E42"
-            },
-            {
-              "name": "Flame",
-              "hex": "#A6192E"
-            }
-          ]
-        },
-        {
-          "year": 1992,
-          "colors": [
-            {
-              "name": "Indigo",
-              "hex": "#00205B"
-            },
-            {
-              "name": "Flame",
-              "hex": "#BA0C2F"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "Indiana University-purdue University Indianapolis",
-      "eras": [
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Crimson",
-              "hex": "#9D2235"
-            },
-            {
-              "name": "Gold",
-              "hex": "#A07400"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 1994,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#A6192E"
-            },
-            {
-              "name": "Gold",
-              "hex": "#B58500"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "Northern Kentucky University",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#F3D03E"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "Oakland University",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#89734C"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "University of Wisconsin-green Bay",
-      "eras": [
-        {
-          "year": 2019,
-          "colors": [
-            {
-              "name": "Phoenix Green",
-              "hex": "#115740"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2007,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#006747"
-            },
-            {
-              "name": "Red",
-              "hex": "#9D2235"
-            },
-            {
-              "name": "Silver",
-              "hex": "#8D9093"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "University of Wisconsin-milwaukee",
-      "eras": [
-        {
-          "year": 2009,
-          "colors": [
-            {
-              "name": "Yellow",
-              "hex": "#FFB81C"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "Wright State University",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Hunter Green",
-              "hex": "#046A38"
-            },
-            {
-              "name": "Raider Gold",
-              "hex": "#CBA052"
-            }
-          ]
-        },
-        {
-          "year": 2001,
-          "colors": [
-            {
-              "name": "Hunter Green",
-              "hex": "#006747"
-            },
-            {
-              "name": "Raider Gold",
-              "hex": "#CC8A00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
-    },
-    {
-      "name": "Youngstown State University",
-      "eras": [
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Scarlet",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Horizon League"
     },
     {
       "name": "Brown University",
@@ -16920,402 +16226,6 @@
       "division": "Metro Atlantic Athletic Conference"
     },
     {
-      "name": "The University of Akron",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#041E42"
-            },
-            {
-              "name": "Gold",
-              "hex": "#89764B"
-            }
-          ]
-        },
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#041E42"
-            },
-            {
-              "name": "Gold",
-              "hex": "#C6AA76"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Ball State University",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#D50032"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 1990,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#E4002B"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Bowling Green State University",
-      "eras": [
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#FE5000"
-            },
-            {
-              "name": "Brown",
-              "hex": "#4F2C1D"
-            }
-          ]
-        },
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#FA4616"
-            },
-            {
-              "name": "Brown",
-              "hex": "#4F2C1D"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#FA4616"
-            },
-            {
-              "name": "Brown",
-              "hex": "#6B3529"
-            }
-          ]
-        },
-        {
-          "year": 1980,
-          "colors": [
-            {
-              "name": "Seal Brown",
-              "hex": "#73391D"
-            },
-            {
-              "name": "Burnt Orange",
-              "hex": "#FC4C02"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "University at Buffalo, The State University of New York",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#0057B7"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2006,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#003DA5"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Central Michigan University",
-      "eras": [
-        {
-          "year": 2013,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F263D"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        },
-        {
-          "year": 2010,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862041"
-            },
-            {
-              "name": "Gold",
-              "hex": "#F2C75C"
-            }
-          ]
-        },
-        {
-          "year": 2003,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#7D2248"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Eastern Michigan University",
-      "eras": [
-        {
-          "year": 2000,
-          "colors": [
-            {
-              "name": "Dark Green",
-              "hex": "#046A38"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Kent State University",
-      "eras": [
-        {
-          "year": 2000,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#00205B"
-            },
-            {
-              "name": "Gold",
-              "hex": "#EAAA00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Miami University",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Northern Illinois University",
-      "eras": [
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#C5003E"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Ohio University",
-      "eras": [
-        {
-          "year": 2012,
-          "colors": [
-            {
-              "name": "Hunter Green",
-              "hex": "#2C5234"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2001,
-          "colors": [
-            {
-              "name": "Hunter Green",
-              "hex": "#006747"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "The University of Toledo",
-      "eras": [
-        {
-          "year": 2001,
-          "colors": [
-            {
-              "name": "Midnight Blue",
-              "hex": "#00205B"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            }
-          ]
-        },
-        {
-          "year": 1997,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#012169"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
-      "name": "Western Michigan University",
-      "eras": [
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Brown",
-              "hex": "#693F23"
-            },
-            {
-              "name": "Gold",
-              "hex": "#89734C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mid-American Conference"
-    },
-    {
       "name": "Bradley University",
       "eras": [
         {
@@ -17464,7 +16374,7 @@
       "name": "Indiana State University",
       "eras": [
         {
-          "year": 2013,
+          "year": 2020,
           "colors": [
             {
               "name": "Royal Blue",
@@ -17889,230 +16799,6 @@
       "division": "Mountain West Conference"
     },
     {
-      "name": "University of New Mexico",
-      "eras": [
-        {
-          "year": 2007,
-          "colors": [
-            {
-              "name": "Cherry",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Silver",
-              "hex": "#C1C6C8"
-            }
-          ]
-        },
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Cherry",
-              "hex": "#CC0C00"
-            },
-            {
-              "name": "Silver",
-              "hex": "#C1C6C8"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mountain West Conference"
-    },
-    {
-      "name": "San Diego State University",
-      "eras": [
-        {
-          "year": 2013,
-          "colors": [
-            {
-              "name": "Scarlet",
-              "hex": "#A6192E"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 1997,
-          "colors": [
-            {
-              "name": "Scarlet",
-              "hex": "#E4002B"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mountain West Conference"
-    },
-    {
-      "name": "San Jose State University",
-      "eras": [
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#FFB81C"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mountain West Conference"
-    },
-    {
-      "name": "United States Air Force Academy",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Air Force Blue",
-              "hex": "#0032A0"
-            },
-            {
-              "name": "Silver",
-              "hex": "#A2AAAD"
-            }
-          ]
-        },
-        {
-          "year": 2000,
-          "colors": [
-            {
-              "name": "Air Force Blue",
-              "hex": "#003087"
-            },
-            {
-              "name": "Silver",
-              "hex": "#B1B3B3"
-            }
-          ]
-        },
-        {
-          "year": 1995,
-          "colors": [
-            {
-              "name": "Air Force Blue",
-              "hex": "#0032A0"
-            },
-            {
-              "name": "Silver",
-              "hex": "#8D9093"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mountain West Conference"
-    },
-    {
-      "name": "Utah State University",
-      "eras": [
-        {
-          "year": 2019,
-          "colors": [
-            {
-              "name": "Aggie Blue",
-              "hex": "#00263A"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2009,
-          "colors": [
-            {
-              "name": "Aggie Blue",
-              "hex": "#003057"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Aggie Blue",
-              "hex": "#0C2340"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1995,
-          "colors": [
-            {
-              "name": "Aggie Blue",
-              "hex": "#002D72"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mountain West Conference"
-    },
-    {
-      "name": "University of Wyoming",
-      "eras": [
-        {
-          "year": 2010,
-          "colors": [
-            {
-              "name": "Brown",
-              "hex": "#4E3629"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        },
-        {
-          "year": 2007,
-          "colors": [
-            {
-              "name": "Brown",
-              "hex": "#4E3629"
-            },
-            {
-              "name": "Prairie Gold",
-              "hex": "#D3BC8D"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Mountain West Conference"
-    },
-    {
       "name": "Bryant University",
       "eras": [
         {
@@ -18385,46 +17071,13 @@
       "division": "Northeast Conference"
     },
     {
-      "name": "The University of Alabama",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Crimson",
-              "hex": "#9D2235"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "University of Arkansas",
+      "name": "Austin Peay State University",
       "eras": [
         {
           "year": 2014,
           "colors": [
             {
-              "name": "Cardinal",
-              "hex": "#9D2235"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2010,
-          "colors": [
-            {
-              "name": "Cardinal",
+              "name": "Scarlet",
               "hex": "#BA0C2F"
             },
             {
@@ -18435,404 +17088,21 @@
         }
       ],
       "league": "NCAA",
-      "division": "Southeastern Conference"
+      "division": "Ohio Valley Conference"
     },
     {
-      "name": "Auburn University",
+      "name": "Belmont University",
       "eras": [
         {
-          "year": 1998,
+          "year": 2004,
           "colors": [
-            {
-              "name": "Burnt Orange",
-              "hex": "#FA4616"
-            },
             {
               "name": "Navy",
-              "hex": "#0C2340"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "University of Florida",
-      "eras": [
-        {
-          "year": 2012,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#FA4616"
-            },
-            {
-              "name": "Blue",
-              "hex": "#003087"
-            }
-          ]
-        },
-        {
-          "year": 1998,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#FA4616"
-            },
-            {
-              "name": "Blue",
-              "hex": "#0032A0"
-            }
-          ]
-        },
-        {
-          "year": 1979,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#E03C31"
-            },
-            {
-              "name": "Blue",
               "hex": "#00205B"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "University of Georgia",
-      "eras": [
-        {
-          "year": 1982,
-          "colors": [
+            },
             {
               "name": "Red",
-              "hex": "#DA291C"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "University of Kentucky",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#0032A0"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "Louisiana State University and Agricultural and Mechanical College",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#582C83"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#582C83"
-            },
-            {
-              "name": "Gold",
-              "hex": "#EAAA00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "Mississippi State University",
-      "eras": [
-        {
-          "year": 2013,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F2C3F"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1984,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862633"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "University of Mississippi",
-      "eras": [
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Cardinal",
               "hex": "#C8102E"
-            },
-            {
-              "name": "Navy",
-              "hex": "#00205B"
-            }
-          ]
-        },
-        {
-          "year": 2003,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#D50032"
-            },
-            {
-              "name": "Navy",
-              "hex": "#012169"
-            }
-          ]
-        },
-        {
-          "year": 1995,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#D50032"
-            },
-            {
-              "name": "Navy",
-              "hex": "#001489"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "University of Missouri",
-      "eras": [
-        {
-          "year": 2019,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#EAAA00"
-            }
-          ]
-        },
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#C69214"
-            }
-          ]
-        },
-        {
-          "year": 2012,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#CC8A00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "University of South Carolina",
-      "eras": [
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Garnet",
-              "hex": "#862633"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 1992,
-          "colors": [
-            {
-              "name": "Garnet",
-              "hex": "#9D2235"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "The University of Tennessee",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Tennessee Orange",
-              "hex": "#FF8200"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "Texas A&m University",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Aggie Maroon",
-              "hex": "#500000"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2001,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F2C3F"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "Vanderbilt University",
-      "eras": [
-        {
-          "year": 2012,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Gold",
-              "hex": "#CEB888"
-            }
-          ]
-        },
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#A07400"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southeastern Conference"
-    },
-    {
-      "name": "The Citadel, The Military College of South Carolina",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Citadel Blue",
-              "hex": "#418FDE"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
             }
           ]
         },
@@ -18840,8 +17110,74 @@
           "year": 1999,
           "colors": [
             {
-              "name": "Citadel Blue",
-              "hex": "#41B6E6"
+              "name": "Navy",
+              "hex": "#00205B"
+            },
+            {
+              "name": "Red",
+              "hex": "#D50032"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Ohio Valley Conference"
+    },
+    {
+      "name": "Eastern Illinois University",
+      "eras": [
+        {
+          "year": 2015,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#003594"
+            },
+            {
+              "name": "Gray",
+              "hex": "#BBBCBC"
+            }
+          ]
+        },
+        {
+          "year": 2000,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#004C97"
+            },
+            {
+              "name": "Gray",
+              "hex": "#9EA2A2"
+            }
+          ]
+        },
+        {
+          "year": 1988,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#005EB8"
+            },
+            {
+              "name": "Gray",
+              "hex": "#B2B4B2"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Ohio Valley Conference"
+    },
+    {
+      "name": "Eastern Kentucky University",
+      "eras": [
+        {
+          "year": 2018,
+          "colors": [
+            {
+              "name": "Maroon",
+              "hex": "#6F263D"
             },
             {
               "name": "White",
@@ -18851,17 +17187,70 @@
         }
       ],
       "league": "NCAA",
-      "division": "Southern Conference"
+      "division": "Ohio Valley Conference"
     },
     {
-      "name": "East Tennessee State University",
+      "name": "Jacksonville State University",
       "eras": [
         {
-          "year": 2014,
+          "year": 1998,
+          "colors": [
+            {
+              "name": "Red",
+              "hex": "#C8102E"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Ohio Valley Conference"
+    },
+    {
+      "name": "Morehead State University",
+      "eras": [
+        {
+          "year": 2009,
+          "colors": [
+            {
+              "name": "Royal Blue",
+              "hex": "#0032A0"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FFCD00"
+            }
+          ]
+        },
+        {
+          "year": 1999,
+          "colors": [
+            {
+              "name": "Royal Blue",
+              "hex": "#0032A0"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FFD100"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Ohio Valley Conference"
+    },
+    {
+      "name": "Murray State University",
+      "eras": [
+        {
+          "year": 2010,
           "colors": [
             {
               "name": "Navy",
-              "hex": "#041E42"
+              "hex": "#0C2340"
             },
             {
               "name": "Gold",
@@ -18874,60 +17263,27 @@
           "colors": [
             {
               "name": "Blue",
-              "hex": "#003DA5"
+              "hex": "#002D72"
             },
             {
               "name": "Gold",
-              "hex": "#C69214"
+              "hex": "#FED141"
             }
           ]
         }
       ],
       "league": "NCAA",
-      "division": "Southern Conference"
+      "division": "Ohio Valley Conference"
     },
     {
-      "name": "Furman University",
+      "name": "Southeast Missouri State University",
       "eras": [
         {
-          "year": 2014,
+          "year": 2005,
           "colors": [
             {
-              "name": "Royal Purple",
-              "hex": "#582C83"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#5F249F"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southern Conference"
-    },
-    {
-      "name": "Mercer University",
-      "eras": [
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#E87722"
+              "name": "Red",
+              "hex": "#C8102E"
             },
             {
               "name": "Black",
@@ -18937,132 +17293,53 @@
         }
       ],
       "league": "NCAA",
-      "division": "Southern Conference"
+      "division": "Ohio Valley Conference"
     },
     {
-      "name": "The University of North Carolina at Greensboro",
-      "eras": [
-        {
-          "year": 2018,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#FFB81C"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1987,
-          "colors": [
-            {
-              "name": "Light Gold",
-              "hex": "#FDDA25"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southern Conference"
-    },
-    {
-      "name": "Samford University",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Crimson",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Blue",
-              "hex": "#0C2340"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southern Conference"
-    },
-    {
-      "name": "The University of Tennessee at Chattanooga",
-      "eras": [
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Navy",
-              "hex": "#002855"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#EAAA00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southern Conference"
-    },
-    {
-      "name": "Virginia Military Institute",
-      "eras": [
-        {
-          "year": 1985,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#E4002B"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southern Conference"
-    },
-    {
-      "name": "Western Carolina University",
+      "name": "Southern Illinois University Edwardsville",
       "eras": [
         {
           "year": 2008,
           "colors": [
             {
-              "name": "Purple",
-              "hex": "#5F249F"
+              "name": "Red",
+              "hex": "#DA291C"
             },
             {
-              "name": "Gold",
-              "hex": "#B9975B"
+              "name": "White",
+              "hex": "#FFFFFF"
             }
           ]
-        },
+        }
+      ],
+      "league": "NCAA",
+      "division": "Ohio Valley Conference"
+    },
+    {
+      "name": "Tennessee State University",
+      "eras": [
         {
-          "year": 2001,
+          "year": 2008,
+          "colors": [
+            {
+              "name": "Reflex Blue",
+              "hex": "#001489"
+            },
+            {
+              "name": "White",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Ohio Valley Conference"
+    },
+    {
+      "name": "Tennessee Technological University",
+      "eras": [
+        {
+          "year": 2006,
           "colors": [
             {
               "name": "Purple",
@@ -19070,47 +17347,60 @@
             },
             {
               "name": "Gold",
-              "hex": "#F3D03E"
+              "hex": "#FFD100"
             }
           ]
         }
       ],
       "league": "NCAA",
-      "division": "Southern Conference"
+      "division": "Ohio Valley Conference"
     },
     {
-      "name": "Wofford College",
+      "name": "The University of Tennessee at Martin",
       "eras": [
         {
-          "year": 2012,
+          "year": 2009,
           "colors": [
             {
-              "name": "Old Gold",
-              "hex": "#8C714C"
+              "name": "Navy",
+              "hex": "#0C2340"
             },
             {
-              "name": "Black",
-              "hex": "#010101"
+              "name": "Orange",
+              "hex": "#FF8200"
+            }
+          ]
+        },
+        {
+          "year": 1999,
+          "colors": [
+            {
+              "name": "Royal Blue",
+              "hex": "#002F6C"
+            },
+            {
+              "name": "Orange",
+              "hex": "#FF6720"
             }
           ]
         }
       ],
       "league": "NCAA",
-      "division": "Southern Conference"
+      "division": "Ohio Valley Conference"
     },
     {
-      "name": "Alabama Agricultural and Mechanical University",
+      "name": "Arizona State University",
       "eras": [
         {
-          "year": 2002,
+          "year": 2011,
           "colors": [
             {
-              "name": "Maroon",
-              "hex": "#862633"
+              "name": "Sun Devil Maroon",
+              "hex": "#7D2248"
             },
             {
-              "name": "White",
-              "hex": "#FFFFFF"
+              "name": "Gold",
+              "hex": "#FFC72C"
             }
           ]
         },
@@ -19122,514 +17412,90 @@
               "hex": "#862041"
             },
             {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Alabama State University",
-      "eras": [
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#C99700"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Alcorn State University",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#512D6D"
-            },
-            {
-              "name": "Gold",
-              "hex": "#CC8A00"
-            }
-          ]
-        },
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#671E75"
-            },
-            {
               "name": "Gold",
               "hex": "#FFC72C"
             }
           ]
-        },
-        {
-          "year": 1996,
-          "colors": [
-            {
-              "name": "Alcorn Purple",
-              "hex": "#5F249F"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#CC8A00"
-            }
-          ]
         }
       ],
       "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "University of Arkansas at Pine Bluff",
-      "eras": [
-        {
-          "year": 2001,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Gold",
-              "hex": "#EAAA00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Grambling State University",
-      "eras": [
-        {
-          "year": 2006,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Gold",
-              "hex": "#EAAA00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Jackson State University",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#041E42"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2000,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#004B87"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Mississippi Valley State University",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#046A38"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Prairie View A&m University",
+      "name": "The University of Arizona",
       "eras": [
         {
           "year": 2013,
           "colors": [
             {
-              "name": "Purple",
-              "hex": "#582C83"
-            },
-            {
-              "name": "Gold",
-              "hex": "#89764B"
-            }
-          ]
-        },
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#9B26B6"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        },
-        {
-          "year": 1997,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#9B26B6"
-            },
-            {
-              "name": "Old Gold",
-              "hex": "#8C714C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Southern University and Agricultural and Mechanical College",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Columbia Blue",
-              "hex": "#69B3E7"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        },
-        {
-          "year": 2001,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#003087"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "Texas Southern University",
-      "eras": [
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F263D"
-            },
-            {
-              "name": "Gray",
-              "hex": "#A2AAAD"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#672146"
-            },
-            {
-              "name": "Gray",
-              "hex": "#A2AAAD"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Southwestern Athletic Conference"
-    },
-    {
-      "name": "University of Denver",
-      "eras": [
-        {
-          "year": 2000,
-          "colors": [
-            {
-              "name": "Crimson",
-              "hex": "#862633"
-            },
-            {
-              "name": "Gold",
-              "hex": "#8C714C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "The Summit League"
-    },
-    {
-      "name": "University of Nebraska at Omaha",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Black",
-              "hex": "#010101"
-            },
-            {
-              "name": "Crimson",
-              "hex": "#C8102E"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "The Summit League"
-    },
-    {
-      "name": "North Dakota State University",
-      "eras": [
-        {
-          "year": 2012,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#115740"
-            },
-            {
-              "name": "Yellow",
-              "hex": "#FFC72C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "The Summit League"
-    },
-    {
-      "name": "University of North Dakota",
-      "eras": [
-        {
-          "year": 2009,
-          "colors": [
-            {
-              "name": "Kelly Green",
-              "hex": "#009A44"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "The Summit League"
-    },
-    {
-      "name": "Oral Roberts University",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Navy",
-              "hex": "#041E42"
-            },
-            {
-              "name": "Vegas Gold",
-              "hex": "#C5B783"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "The Summit League"
-    },
-    {
-      "name": "Purdue University Fort Wayne",
-      "eras": [
-        {
-          "year": 2019,
-          "colors": [
-            {
-              "name": "Gold",
-              "hex": "#DAAA00"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#002F6C"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#10069F"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1994,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#003DA5"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "The Summit League"
-    },
-    {
-      "name": "South Dakota State University",
-      "eras": [
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Yellow",
-              "hex": "#FFD100"
-            },
-            {
-              "name": "Blue",
-              "hex": "#0032A0"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "The Summit League"
-    },
-    {
-      "name": "The University of South Dakota",
-      "eras": [
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Red",
+              "name": "Cardinal",
               "hex": "#BA0C2F"
             },
             {
-              "name": "White",
-              "hex": "#FFFFFF"
+              "name": "Navy",
+              "hex": "#00205B"
             }
           ]
         }
       ],
       "league": "NCAA",
-      "division": "The Summit League"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "Western Illinois University",
+      "name": "University of California, Berkeley",
       "eras": [
         {
-          "year": 2009,
+          "year": 2013,
           "colors": [
             {
-              "name": "Purple",
-              "hex": "#500878"
+              "name": "Blue",
+              "hex": "#041E42"
             },
             {
               "name": "Gold",
-              "hex": "#FFCD00"
+              "hex": "#FFC72C"
             }
           ]
         }
       ],
       "league": "NCAA",
-      "division": "The Summit League"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "Appalachian State University",
+      "name": "University of California, Los Angeles",
       "eras": [
+        {
+          "year": 2016,
+          "colors": [
+            {
+              "name": "Powderkeg Blue",
+              "hex": "#0072CE"
+            },
+            {
+              "name": "Westwood Gold",
+              "hex": "#FFB81C"
+            }
+          ]
+        },
         {
           "year": 2004,
           "colors": [
             {
-              "name": "Black",
-              "hex": "#010101"
+              "name": "True Blue",
+              "hex": "#0072CE"
+            },
+            {
+              "name": "Gold",
+              "hex": "#FFC72C"
+            }
+          ]
+        },
+        {
+          "year": 1998,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#0032A0"
             },
             {
               "name": "Gold",
@@ -19639,21 +17505,21 @@
         }
       ],
       "league": "NCAA",
-      "division": "Sun Belt Conference"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "Arkansas State University",
+      "name": "University of Colorado Boulder",
       "eras": [
         {
-          "year": 2012,
+          "year": 2005,
           "colors": [
-            {
-              "name": "Scarlet",
-              "hex": "#C8102E"
-            },
             {
               "name": "Black",
               "hex": "#010101"
+            },
+            {
+              "name": "Gold",
+              "hex": "#C5B783"
             }
           ]
         },
@@ -19661,547 +17527,54 @@
           "year": 1985,
           "colors": [
             {
-              "name": "Scarlet",
-              "hex": "#DA291C"
-            },
-            {
               "name": "Black",
               "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "University of Arkansas at Little Rock",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F263D"
             },
             {
-              "name": "Silver",
-              "hex": "#8D9093"
+              "name": "Gold",
+              "hex": "#FFCD00"
             }
           ]
         },
         {
-          "year": 2011,
+          "year": 1981,
           "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F263D"
-            },
-            {
-              "name": "Silver",
-              "hex": "#9EA2A2"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 2002,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F2C3F"
-            },
             {
               "name": "Silver",
               "hex": "#8D9093"
             },
             {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        },
-        {
-          "year": 1998,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#984857"
-            },
-            {
-              "name": "Gray",
-              "hex": "#9D968D"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "Coastal Carolina University",
-      "eras": [
-        {
-          "year": 1995,
-          "colors": [
-            {
-              "name": "Coastal Green",
-              "hex": "#007377"
-            },
-            {
-              "name": "Bronze",
-              "hex": "#AD7C59"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "Georgia Southern University",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#041E42"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#00205B"
-            },
-            {
               "name": "Gold",
-              "hex": "#998542"
+              "hex": "#896C4C"
+            },
+            {
+              "name": "Blue",
+              "hex": "#0072CE"
             }
           ]
         }
       ],
       "league": "NCAA",
-      "division": "Sun Belt Conference"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "Georgia State University",
-      "eras": [
-        {
-          "year": 2010,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#0032A0"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1993,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#003DA5"
-            },
-            {
-              "name": "Crimson",
-              "hex": "#E4002B"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "University of Louisiana at Lafayette",
-      "eras": [
-        {
-          "year": 2014,
-          "colors": [
-            {
-              "name": "Vermillion",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Vermillion",
-              "hex": "#BF0D3E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "University of Louisiana at Monroe",
+      "name": "Oregon State University",
       "eras": [
         {
           "year": 2019,
           "colors": [
             {
-              "name": "Maroon",
-              "hex": "#862633"
-            },
-            {
-              "name": "Gold",
-              "hex": "#EAAA00"
-            }
-          ]
-        },
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862041"
-            },
-            {
-              "name": "Gold",
-              "hex": "#B9975B"
-            }
-          ]
-        },
-        {
-          "year": 2010,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#6F2C3F"
-            },
-            {
-              "name": "Gold",
-              "hex": "#AD841F"
-            }
-          ]
-        },
-        {
-          "year": 2006,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862633"
-            },
-            {
-              "name": "Gold",
-              "hex": "#AD841F"
-            }
-          ]
-        },
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862633"
-            },
-            {
-              "name": "Gold",
-              "hex": "#89734C"
-            }
-          ]
-        },
-        {
-          "year": 1998,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#9D2235"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC72C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "University of South Alabama",
-      "eras": [
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#BF0D3E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1998,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "Texas State University-san Marcos",
-      "eras": [
-        {
-          "year": 2006,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#572932"
-            },
-            {
-              "name": "Gold",
-              "hex": "#89734C"
-            }
-          ]
-        },
-        {
-          "year": 2003,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862041"
-            },
-            {
-              "name": "Gold",
-              "hex": "#CC8A00"
-            }
-          ]
-        },
-        {
-          "year": 1997,
-          "colors": [
-            {
-              "name": "Maroon",
-              "hex": "#862041"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFC658"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "The University of Texas at Arlington",
-      "eras": [
-        {
-          "year": 2006,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#003DA5"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "Troy University",
-      "eras": [
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Cardinal",
-              "hex": "#9D2235"
-            },
-            {
-              "name": "Silver",
-              "hex": "#B1B3B3"
+              "name": "Orange",
+              "hex": "#DC4405"
             },
             {
               "name": "Black",
               "hex": "#010101"
             }
           ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Sun Belt Conference"
-    },
-    {
-      "name": "Brigham Young University",
-      "eras": [
-        {
-          "year": 2016,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#002E5D"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
         },
         {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Deep Blue",
-              "hex": "#041E42"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 1978,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#0032A0"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "West Coast Conference"
-    },
-    {
-      "name": "Gonzaga University",
-      "eras": [
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#041E42"
-            },
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            }
-          ]
-        },
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#00205B"
-            },
-            {
-              "name": "Red",
-              "hex": "#C8102E"
-            }
-          ]
-        },
-        {
-          "year": 1996,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#001871"
-            },
-            {
-              "name": "Red",
-              "hex": "#DA291C"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "West Coast Conference"
-    },
-    {
-      "name": "Loyola Marymount University",
-      "eras": [
-        {
-          "year": 2019,
-          "colors": [
-            {
-              "name": "Crimson",
-              "hex": "#A50034"
-            },
-            {
-              "name": "Blue",
-              "hex": "#0076A5"
-            }
-          ]
-        },
-        {
-          "year": 1997,
-          "colors": [
-            {
-              "name": "Navy",
-              "hex": "#00263E"
-            },
-            {
-              "name": "Crimson",
-              "hex": "#862633"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "West Coast Conference"
-    },
-    {
-      "name": "University of The Pacific",
-      "eras": [
-        {
-          "year": 1998,
+          "year": 1986,
           "colors": [
             {
               "name": "Orange",
@@ -20215,34 +17588,34 @@
         }
       ],
       "league": "NCAA",
-      "division": "West Coast Conference"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "Pepperdine University",
+      "name": "University of Oregon",
       "eras": [
         {
-          "year": 2012,
+          "year": 2017,
           "colors": [
             {
-              "name": "Blue",
-              "hex": "#00205B"
+              "name": "Thunder Green",
+              "hex": "#173F35"
             },
             {
-              "name": "Orange",
-              "hex": "#E87722"
+              "name": "Lightning Yellow",
+              "hex": "#FBE122"
             }
           ]
         },
         {
-          "year": 2004,
+          "year": 2003,
           "colors": [
             {
-              "name": "Blue",
-              "hex": "#002F6C"
+              "name": "Thunder Green",
+              "hex": "#183029"
             },
             {
-              "name": "Orange",
-              "hex": "#E87722"
+              "name": "Lightning Yellow",
+              "hex": "#FEDD00"
             }
           ]
         },
@@ -20250,157 +17623,16 @@
           "year": 1998,
           "colors": [
             {
-              "name": "Blue",
-              "hex": "#0032A0"
+              "name": "Spruce",
+              "hex": "#154734"
             },
             {
-              "name": "Orange",
-              "hex": "#EA4F00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "West Coast Conference"
-    },
-    {
-      "name": "University of Portland",
-      "eras": [
-        {
-          "year": 2018,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#330072"
+              "name": "Hunter Green",
+              "hex": "#00843D"
             },
             {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#221C35"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2009,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#211747"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2000,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#582C83"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "West Coast Conference"
-    },
-    {
-      "name": "Saint Mary’s College of California",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#A6192E"
-            },
-            {
-              "name": "Blue",
-              "hex": "#003057"
-            }
-          ]
-        },
-        {
-          "year": 2008,
-          "colors": [
-            {
-              "name": "Red",
-              "hex": "#BA0C2F"
-            },
-            {
-              "name": "Blue",
-              "hex": "#003057"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "West Coast Conference"
-    },
-    {
-      "name": "University of San Diego",
-      "eras": [
-        {
-          "year": 2017,
-          "colors": [
-            {
-              "name": "Torero Blue",
-              "hex": "#69B3E7"
-            },
-            {
-              "name": "Founders Blue",
-              "hex": "#00205B"
-            }
-          ]
-        },
-        {
-          "year": 2001,
-          "colors": [
-            {
-              "name": "Navy",
-              "hex": "#041E42"
-            },
-            {
-              "name": "Columbia Blue",
-              "hex": "#69B3E7"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "West Coast Conference"
-    },
-    {
-      "name": "University of San Francisco",
-      "eras": [
-        {
-          "year": 2012,
-          "colors": [
-            {
-              "name": "Green",
-              "hex": "#205C40"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFB81C"
+              "name": "Lightning Yellow",
+              "hex": "#FFC72C"
             }
           ]
         },
@@ -20408,8 +17640,28 @@
           "year": 1994,
           "colors": [
             {
-              "name": "Green",
-              "hex": "#154734"
+              "name": "Emerald Green",
+              "hex": "#006747"
+            },
+            {
+              "name": "Lemon Yellow",
+              "hex": "#FFD100"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Pac-12 Conference"
+    },
+    {
+      "name": "University of Southern California",
+      "eras": [
+        {
+          "year": 1992,
+          "colors": [
+            {
+              "name": "Cardinal",
+              "hex": "#9D2235"
             },
             {
               "name": "Gold",
@@ -20419,17 +17671,17 @@
         }
       ],
       "league": "NCAA",
-      "division": "West Coast Conference"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "Santa Clara University",
+      "name": "Stanford University",
       "eras": [
         {
           "year": 2015,
           "colors": [
             {
               "name": "Cardinal",
-              "hex": "#862633"
+              "hex": "#9D2235"
             },
             {
               "name": "White",
@@ -20439,162 +17691,16 @@
         }
       ],
       "league": "NCAA",
-      "division": "West Coast Conference"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "California Baptist University",
+      "name": "University of Utah",
       "eras": [
         {
-          "year": 2003,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#002554"
-            },
-            {
-              "name": "Gold",
-              "hex": "#A07400"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Western Athletic Conference"
-    },
-    {
-      "name": "California State University, Bakersfield",
-      "eras": [
-        {
-          "year": 2010,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#0032A0"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Western Athletic Conference"
-    },
-    {
-      "name": "Chicago State University",
-      "eras": [
-        {
-          "year": 2011,
-          "colors": [
-            {
-              "name": "Evergreen",
-              "hex": "#006747"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        },
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Evergreen",
-              "hex": "#007A53"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Western Athletic Conference"
-    },
-    {
-      "name": "Grand Canyon University",
-      "eras": [
-        {
-          "year": 1996,
-          "colors": [
-            {
-              "name": "Purple",
-              "hex": "#5F249F"
-            },
-            {
-              "name": "Black",
-              "hex": "#010101"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Western Athletic Conference"
-    },
-    {
-      "name": "University of Missouri-kansas City",
-      "eras": [
-        {
-          "year": 2020,
-          "colors": [
-            {
-              "name": "Blue",
-              "hex": "#004B87"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            }
-          ]
-        },
-        {
-          "year": 1999,
-          "colors": [
-            {
-              "name": "Royal Blue",
-              "hex": "#003087"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFCD00"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Western Athletic Conference"
-    },
-    {
-      "name": "New Mexico State University",
-      "eras": [
-        {
-          "year": 2007,
+          "year": 2012,
           "colors": [
             {
               "name": "Crimson",
-              "hex": "#862041"
-            },
-            {
-              "name": "White",
-              "hex": "#FFFFFF"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Western Athletic Conference"
-    },
-    {
-      "name": "Seattle University",
-      "eras": [
-        {
-          "year": 2004,
-          "colors": [
-            {
-              "name": "Scarlet",
               "hex": "#BA0C2F"
             },
             {
@@ -20605,78 +17711,87 @@
         }
       ],
       "league": "NCAA",
-      "division": "Western Athletic Conference"
+      "division": "Pac-12 Conference"
     },
     {
-      "name": "The University of Texas Rio Grande Valley",
-      "eras": [
-        {
-          "year": 2015,
-          "colors": [
-            {
-              "name": "Orange",
-              "hex": "#FC4C02"
-            },
-            {
-              "name": "Navy",
-              "hex": "#0C2340"
-            },
-            {
-              "name": "Kelly Green",
-              "hex": "#00843D"
-            }
-          ]
-        }
-      ],
-      "league": "NCAA",
-      "division": "Western Athletic Conference"
-    },
-    {
-      "name": "Utah Valley University",
+      "name": "Washington State University",
       "eras": [
         {
           "year": 2016,
           "colors": [
             {
-              "name": "Wolverine Green",
-              "hex": "#275D38"
+              "name": "Crimson",
+              "hex": "#9D2235"
             },
             {
-              "name": "White",
-              "hex": "#FFFFFF"
+              "name": "Gray",
+              "hex": "#A2AAAD"
             }
           ]
         },
         {
-          "year": 2008,
+          "year": 2011,
           "colors": [
             {
-              "name": "Green",
-              "hex": "#2C5234"
+              "name": "Cougar Crimson",
+              "hex": "#9D2235"
             },
             {
-              "name": "Gold",
-              "hex": "#D9C756"
-            }
-          ]
-        },
-        {
-          "year": 2000,
-          "colors": [
-            {
-              "name": "Forest Green",
-              "hex": "#154734"
-            },
-            {
-              "name": "Gold",
-              "hex": "#FFD100"
+              "name": "Dark Steel Gray",
+              "hex": "#53565A"
             }
           ]
         }
       ],
       "league": "NCAA",
-      "division": "Western Athletic Conference"
+      "division": "Pac-12 Conference"
+    },
+    {
+      "name": "University of Washington",
+      "eras": [
+        {
+          "year": 2017,
+          "colors": [
+            {
+              "name": "Purple",
+              "hex": "#330072"
+            },
+            {
+              "name": "Gold",
+              "hex": "#CEB888"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "colors": [
+            {
+              "name": "Purple",
+              "hex": "#403A60"
+            },
+            {
+              "name": "Gold",
+              "hex": "#CEB888"
+            }
+          ]
+        },
+        {
+          "year": 1995,
+          "colors": [
+            {
+              "name": "Purple",
+              "hex": "#5F249F"
+            },
+            {
+              "name": "Gold",
+              "hex": "#EAAA00"
+            }
+          ]
+        }
+      ],
+      "league": "NCAA",
+      "division": "Pac-12 Conference"
     }
   ],
-  "generated": "2020-02-24T03:52:03.594Z"
+  "generated": "2020-04-19T15:34:27.936Z"
 }
