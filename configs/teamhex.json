@@ -8293,6 +8293,7 @@
       "league": "WNBA"
     },
     {
+      "id": 24,
       "name": "Anaheim Ducks",
       "eras": [
         {
@@ -8341,6 +8342,7 @@
       "league": "NHL"
     },
     {
+      "id": 53,
       "name": "Arizona Coyotes",
       "eras": [
         {
@@ -8368,6 +8370,7 @@
       "league": "NHL"
     },
     {
+      "id": 6,
       "name": "Boston Bruins",
       "eras": [
         {
@@ -8463,6 +8466,7 @@
       "league": "NHL"
     },
     {
+      "id": 7,
       "name": "Buffalo Sabres",
       "eras": [
         {
@@ -8574,6 +8578,7 @@
       "league": "NHL"
     },
     {
+      "id": 20,
       "name": "Calgary Flames",
       "eras": [
         {
@@ -8618,6 +8623,7 @@
       "league": "NHL"
     },
     {
+      "id": 12,
       "name": "Carolina Hurricanes",
       "eras": [
         {
@@ -8666,6 +8672,7 @@
       "league": "NHL"
     },
     {
+      "id": 16,
       "name": "Chicago Blackhawks",
       "eras": [
         {
@@ -8689,6 +8696,7 @@
       "league": "NHL"
     },
     {
+      "id": 21,
       "name": "Colorado Avalanche",
       "eras": [
         {
@@ -8745,6 +8753,7 @@
       "league": "NHL"
     },
     {
+      "id": 29,
       "name": "Columbus Blue Jackets",
       "eras": [
         {
@@ -8797,6 +8806,7 @@
       "league": "NHL"
     },
     {
+      "id": 25,
       "name": "Dallas Stars",
       "eras": [
         {
@@ -8866,6 +8876,7 @@
       "league": "NHL"
     },
     {
+      "id": 17,
       "name": "Detroit Red Wings",
       "eras": [
         {
@@ -8898,6 +8909,7 @@
       "league": "NHL"
     },
     {
+      "id": 22,
       "name": "Edmonton Oilers",
       "eras": [
         {
@@ -8976,6 +8988,7 @@
       "league": "NHL"
     },
     {
+      "id": 13,
       "name": "Florida Panthers",
       "eras": [
         {
@@ -9078,6 +9091,7 @@
       "league": "NHL"
     },
     {
+      "id": 26,
       "name": "Los Angeles Kings",
       "eras": [
         {
@@ -9139,6 +9153,7 @@
       "league": "NHL"
     },
     {
+      "id": 30,
       "name": "Minnesota Wild",
       "eras": [
         {
@@ -9170,6 +9185,7 @@
       "league": "NHL"
     },
     {
+      "id": 8,
       "name": "Montreal Canadiens",
       "eras": [
         {
@@ -9210,6 +9226,7 @@
       "league": "NHL"
     },
     {
+      "id": 18,
       "name": "Nashville Predators",
       "eras": [
         {
@@ -9275,6 +9292,7 @@
       "league": "NHL"
     },
     {
+      "id": 1,
       "name": "New Jersey Devils",
       "eras": [
         {
@@ -9332,6 +9350,7 @@
       "league": "NHL"
     },
     {
+      "id": 2,
       "name": "New York Islanders",
       "eras": [
         {
@@ -9414,6 +9433,7 @@
       "league": "NHL"
     },
     {
+      "id": 3,
       "name": "New York Rangers",
       "eras": [
         {
@@ -9488,6 +9508,7 @@
       "league": "NHL"
     },
     {
+      "id": 9,
       "name": "Ottawa Senators",
       "eras": [
         {
@@ -9536,6 +9557,7 @@
       "league": "NHL"
     },
     {
+      "id": 3,
       "name": "Philadelphia Flyers",
       "eras": [
         {
@@ -9576,6 +9598,7 @@
       "league": "NHL"
     },
     {
+      "id": 5,
       "name": "Pittsburgh Penguins",
       "eras": [
         {
@@ -9735,6 +9758,7 @@
       "league": "NHL"
     },
     {
+      "id": 55,
       "name": "Seattle Kraken",
       "eras": [
         {
@@ -9770,6 +9794,7 @@
       "league": "NHL"
     },
     {
+      "id": 19,
       "name": "St. Louis Blues",
       "eras": [
         {
@@ -9898,6 +9923,7 @@
       "league": "NHL"
     },
     {
+      "id": 28,
       "name": "San Jose Sharks",
       "eras": [
         {
@@ -9988,6 +10014,7 @@
       "league": "NHL"
     },
     {
+      "id": 14,
       "name": "Tampa Bay Lightning",
       "eras": [
         {
@@ -10049,6 +10076,7 @@
       "league": "NHL"
     },
     {
+      "id": 10,
       "name": "Toronto Maple Leafs",
       "eras": [
         {
@@ -10094,6 +10122,7 @@
       "league": "NHL"
     },
     {
+      "id": 23,
       "name": "Vancouver Canucks",
       "eras": [
         {
@@ -10201,6 +10230,7 @@
       "league": "NHL"
     },
     {
+      "id": 54,
       "name": "Vegas Golden Knights",
       "eras": [
         {
@@ -10232,6 +10262,7 @@
       "league": "NHL"
     },
     {
+      "id": 15,
       "name": "Washington Capitals",
       "eras": [
         {
@@ -10293,6 +10324,7 @@
       "league": "NHL"
     },
     {
+      "id": 52,
       "name": "Winnipeg Jets",
       "eras": [
         {
