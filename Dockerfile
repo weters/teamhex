@@ -12,6 +12,7 @@ RUN GOOS=linux \
         -ldflags "-X main.Version=$version" \
         -o teamhexserver github.com/weters/teamhex/cmd/teamhexserver
 RUN go get github.com/go-swagger/go-swagger/cmd/swagger
+RUN go install github.com/go-swagger/go-swagger/cmd/swagger
 RUN swagger generate spec -o swagger.json
 
 FROM alpine:latest AS build-json
