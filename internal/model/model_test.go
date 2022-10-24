@@ -58,6 +58,14 @@ func TestAllTeams(t *testing.T) {
 	g.Expect(teams[3].Link).Should(gomega.Equal("/leagues/ncaa/university%20at%20buffalo%2C%20the%20state%20university%20of%20new%20york"))
 }
 
+func TestTeamID(t *testing.T) {
+	g := gomega.NewWithT(t)
+	m, _ := New(testFile)
+
+	team, _ := m.TeamByLeagueAndName("NHL", "Buffalo Sabres")
+	g.Expect(team.ID).Should(gomega.Equal(19))
+}
+
 func TestLeagues(t *testing.T) {
 	g := gomega.NewWithT(t)
 	m, _ := New(testFile)
