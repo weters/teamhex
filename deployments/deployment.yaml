@@ -21,7 +21,7 @@ spec:
         - name: github
       containers:
         - name: teamhex
-          image: docker.pkg.github.com/weters/teamhex/server:latest
+          image: ghcr.io/weters/teamhex/server:latest
           readinessProbe:
             httpGet:
               port: 5000
